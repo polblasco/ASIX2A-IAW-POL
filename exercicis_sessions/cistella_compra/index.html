@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <title>Botiga</title>
+    </head>
+    <body>
+        <h1>Botiga de productes</h1>
+        <form action="cistella_compra.php" method="POST">
+            <h3>Vi Les Terrasses (39 €)</h3>
+            <input type="number" name="terrasses" min="0" value="0">
+            <button type="submit">Afegir a la cistella</button>
+        </form>
+
+        <form action="cistella_compra.php" method="POST">
+            <h3>Cava Raventós i Blanc (25 €)</h3>
+            <input type="number" name="raventos" min="0" value="0">
+            <button type="submit">Afegir a la cistella</button>
+        </form>
+
+        <a href="resum.php">Finalitzar compra</a>
+    </body>
+</html>
