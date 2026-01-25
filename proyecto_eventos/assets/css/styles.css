@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f5f5f5;
+}
+
+header {
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+} 
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.nav-links ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+
+.nav-links a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+} 
+
+.user-info {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Contingut */
+h2 {
+    margin-top: 0;
+}
+
+.errors {
+    color: red;
+    background: #ffe5e5;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+/* Taules */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #0077cc;
+    color: white;
+    text-align: left;
+}
+
+table tr:hover {
+    background: #f0f8ff;
+}
+
+/* Formularis */
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea, select {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    padding: 10px 15px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
